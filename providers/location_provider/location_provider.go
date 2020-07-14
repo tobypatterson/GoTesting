@@ -7,7 +7,7 @@ import (
 
 	"example.com/hello/domain/location"
 	"example.com/hello/utils/errors"
-	"github.com/mercadolibre/golang-restclient/rest"
+	"github.com/federicoleon/golang-restclient/rest"
 )
 
 const (

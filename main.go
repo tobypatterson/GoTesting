@@ -8,7 +8,7 @@ import (
 
 func main() {
 
-	country, err := locations_provider.GetCountry("AR")
+	country, err := locations_provider.GetCountry("US")
 
 	fmt.Println(err)
 	fmt.Println(country)

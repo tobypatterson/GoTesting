@@ -44,5 +44,5 @@ func TestGetCountryNoError(t *testing.T) {
 	assert.NotNil(t, country)
 	assert.Nil(t, err)
 	assert.EqualValues(t, "AR", country.Id)
-	assert.EqualValues(t, "Argintina", country.Name)
+	assert.EqualValues(t, "Argentina", country.Name)
 }
